@@ -12,6 +12,8 @@ parserOptions:
   sourceType: module
 
 plugins: ["react"]
+rules:
+  object-curly-spacing: ["error", "always"]
 
 settings:
   react:
